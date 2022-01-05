@@ -4,10 +4,10 @@
 
 import numpy as np
 from scipy import signal, interpolate
-import librosa.effects as effects
-import librosa.decompose as decompose
-import librosa.core as core
-import librosa.util
+# import librosa.effects as effects
+# import librosa.decompose as decompose
+# import librosa.core as core
+# import librosa.util
 
 def crossfade(audio1, audio2, length = None):
 	'''Crossfade two audio clips, using linear fading by default.
